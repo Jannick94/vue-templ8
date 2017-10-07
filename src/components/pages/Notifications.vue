@@ -2,9 +2,7 @@
     <div>
         <h2>Notifications</h2>
 
-        <AppButton class="primary">Show notification</AppButton>
-
-        <Notification>Notification</Notification>
+        <AppButton class="primary" @click="showNotification">Show notification</AppButton>
     </div>
 </template>
 
@@ -13,8 +11,10 @@
 
     export default {
         name: 'Notifications',
-        components: {
-            Notification
+        methods: {
+            showNotification() {
+                this.$notification.open('Custom message');
+            }
         }
     }
 </script>

@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <AppHeader></AppHeader>
-
+        <AppNotification></AppNotification>
         <div class="app-content">
             <AppSideNav></AppSideNav>
             <div class="app-view">

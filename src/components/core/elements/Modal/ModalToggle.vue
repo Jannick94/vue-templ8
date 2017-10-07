@@ -1,5 +1,5 @@
 <template>
-    <AppButton class="primary" @click.native="open()">
+    <AppButton class="primary" @click="open()">
         Open basic modal
     </AppButton>
 </template>

@@ -5,13 +5,8 @@
 </template>
 
 <script>
-    import AppButton from '@/components/core/elements/Button/AppButton';
-
     export default {
         name: 'ModalToggle',
-        components: {
-            AppButton
-        },
         props: {
             name: {
                 type: String,

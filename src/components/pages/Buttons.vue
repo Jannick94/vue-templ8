@@ -12,13 +12,11 @@
 </template>
 
 <script>
-    import AppButton         from '@/components/core/elements/Button/AppButton';
     import AppDropdownButton from '@/components/core/elements/Button/AppDropdownButton';
 
     export default {
         name: 'Buttons',
         components: {
-            AppButton,
             AppDropdownButton
         }
     }

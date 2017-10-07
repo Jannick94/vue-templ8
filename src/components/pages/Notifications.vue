@@ -9,13 +9,11 @@
 </template>
 
 <script>
-    import AppButton from '@/components/core/elements/Button/AppButton';
     import { Notification } from '@/components/core/elements/Notification/index';
 
     export default {
         name: 'Notifications',
         components: {
-            AppButton,
             Notification
         }
     }

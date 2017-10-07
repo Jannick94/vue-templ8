@@ -19,6 +19,12 @@
                     Modals
                 </router-link>
             </li>
+            <li class="side-nav-item">
+                <router-link to="/notifications">
+                    <i class="material-icons">view_carousel</i>
+                    Notifications
+                </router-link>
+            </li>
         </ul>
     </div>
 </template>

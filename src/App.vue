@@ -5,7 +5,9 @@
         <div class="app-content">
             <AppSideNav></AppSideNav>
             <div class="app-view">
-                <router-view></router-view>
+                <transition name="view">
+                    <router-view></router-view>
+                </transition>
             </div>
         </div>
 
@@ -58,5 +60,18 @@
             flex: 1;
             padding: 20px;
         }
+    }
+
+    .view-enter-active, .view-leave-active {
+      transition-property: opacity;
+      transition-duration: .20s;
+    }
+
+    .view-enter-active {
+      transition-delay: .20s;
+    }
+
+    .view-enter, .view-leave-active {
+      opacity: 0
     }
 </style>

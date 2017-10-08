@@ -15,19 +15,19 @@
             </li>
             <li class="side-nav-item">
                 <router-link to="/modals">
-                    <i class="material-icons">view_carousel</i>
+                    <AppIcon>perm_media</AppIcon>
                     Modals
                 </router-link>
             </li>
             <li class="side-nav-item">
                 <router-link to="/notifications">
-                    <i class="material-icons">view_carousel</i>
+                    <AppIcon>announcement</AppIcon>
                     Notifications
                 </router-link>
             </li>
             <li class="side-nav-item">
                 <router-link to="/alerts">
-                    <i class="material-icons">view_carousel</i>
+                    <AppIcon>info</AppIcon>
                     Alerts
                 </router-link>
             </li>

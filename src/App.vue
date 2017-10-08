@@ -1,13 +1,15 @@
 <template>
     <div id="app">
         <AppHeader></AppHeader>
-        <AppNotification></AppNotification>
+
         <div class="app-content">
             <AppSideNav></AppSideNav>
             <div class="app-view">
                 <router-view></router-view>
             </div>
         </div>
+
+        <AppNotification></AppNotification>
     </div>
 </template>
 
@@ -28,7 +30,7 @@
     @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
     @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
     @import "~normalize.css";
-    @import "./scss/variables.scss";
+    @import "./scss/app.scss";
 
     * {
         box-sizing: border-box;

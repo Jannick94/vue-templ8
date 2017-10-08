@@ -7,7 +7,20 @@
         <AppButton class="primary outline">Button</AppButton>
 
         <h2>Button dropdown</h2>
-        <AppDropdownButton></AppDropdownButton>
+        <AppDropdownButton>
+            <li>
+                <router-link to="/buttons">
+                    <AppIcon>attachment</AppIcon>
+                    Dropdown item
+                </router-link>
+            </li>
+            <li>
+                <router-link to="/buttons">
+                    <AppIcon>file_download</AppIcon>
+                    Dropdown item with long text
+                </router-link>
+            </li>
+        </AppDropdownButton>
     </div>
 </template>
 

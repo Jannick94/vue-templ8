@@ -7,8 +7,7 @@
             </AppButton>
         </div>
         <ul class="dropdown-button-list" v-show="isOpen">
-            <li class="dropdown-button-list-item">Item</li>
-            <li class="dropdown-button-list-item">Item</li>
+            <slot></slot>
         </ul>
     </div>
 </template>
@@ -72,8 +71,14 @@
             border-radius: 2px;
             padding: 5px 0;
 
-            .dropdown-button-list-item {
-                padding: 15px 10px;
+            a {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+
+                i {
+                    margin-right: 10px;
+                }
 
                 &:hover {
                     background: #ddd;

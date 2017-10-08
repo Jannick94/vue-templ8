@@ -5,6 +5,7 @@ import Buttons       from '@/components/pages/Buttons';
 import Modals        from '@/components/pages/Modals';
 import Notifications from '@/components/pages/Notifications';
 import Alerts        from '@/components/pages/Alerts';
+import Form          from '@/components/pages/Form';
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
         path: '/alerts',
         name: 'Alerts',
         component: Alerts
+    },
+    {
+        path: '/form',
+        name: 'Form',
+        component: Form
     }
   ]
 })

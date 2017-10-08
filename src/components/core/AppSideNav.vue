@@ -14,6 +14,12 @@
                 </router-link>
             </li>
             <li class="side-nav-item">
+                <router-link to="/form">
+                    <AppIcon>mode_edit</AppIcon>
+                    Form
+                </router-link>
+            </li>
+            <li class="side-nav-item">
                 <router-link to="/modals">
                     <AppIcon>perm_media</AppIcon>
                     Modals

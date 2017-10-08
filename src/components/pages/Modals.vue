@@ -2,19 +2,19 @@
     <div>
         <h2>Modals</h2>
 
-        <ModalToggle name="modal"></ModalToggle>
-        <Modal name="modal"></Modal>
+        <AppModalToggle name="modal"></AppModalToggle>
+        <AppModal name="modal"></AppModal>
     </div>
 </template>
 
 <script>
-    import { Modal, ModalToggle } from '@/components/core/elements/Modal/index.js';
+    import { AppModal, AppModalToggle } from '@/components/core/elements/Modal/index.js';
 
     export default {
         name: 'Modals',
         components: {
-            Modal,
-            ModalToggle
+            AppModal,
+            AppModalToggle
         }
     }
 </script>

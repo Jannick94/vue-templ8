@@ -1,16 +1,21 @@
 <template>
     <transition name="modal">
         <div class="modal" v-if="isOpen" @click="close()">
-            <div class="modal-dialog">
+            <div class="modal-dialog" @click.stop>
                 <div class="modal-dialog-header">
-                    Title
+                    <div>Title</div>
+                    <div class="modal-dialog-close">
+                        <AppIcon @click.native="close()">
+                            close
+                        </AppIcon>
+                    </div>
                 </div>
                 <div class="modal-dialog-content">
                     Content
                 </div>
                 <div class="modal-dialog-footer">
                     <slot name="footer">
-                        <button @click="close()">Close</button>
+                        <AppButton class="primary" @click="close()">Close</AppButton>
                     </slot>
                 </div>
             </div>
@@ -83,8 +88,15 @@
             transition: all .15s ease-in;
 
             .modal-dialog-header {
+                display: flex;
+                align-items: center;
                 padding: 20px;
                 border-bottom: 1px solid #eee;
+
+                .modal-dialog-close {
+                    cursor: pointer;
+                    margin-left: auto;
+                }
             }
 
             .modal-dialog-content {

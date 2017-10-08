@@ -25,6 +25,12 @@
                     Notifications
                 </router-link>
             </li>
+            <li class="side-nav-item">
+                <router-link to="/alerts">
+                    <i class="material-icons">view_carousel</i>
+                    Alerts
+                </router-link>
+            </li>
         </ul>
     </div>
 </template>

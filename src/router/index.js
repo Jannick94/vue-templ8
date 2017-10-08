@@ -4,6 +4,7 @@ import Home          from '@/components/pages/Home';
 import Buttons       from '@/components/pages/Buttons';
 import Modals        from '@/components/pages/Modals';
 import Notifications from '@/components/pages/Notifications';
+import Alerts        from '@/components/pages/Alerts';
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
         path: '/notifications',
         name: 'Notifications',
         component: Notifications
+    },
+    {
+        path: '/alerts',
+        name: 'Alerts',
+        component: Alerts
     }
   ]
 })

@@ -6,7 +6,7 @@
                 <i class="material-icons">arrow_drop_down</i>
             </AppButton>
         </div>
-        <ul class="dropdown-button-list" v-show="isOpen">
+        <ul class="dropdown-button-list" v-show="isOpen" @click="toggle()">
             <slot></slot>
         </ul>
     </div>
@@ -74,7 +74,7 @@
             a {
                 display: flex;
                 align-items: center;
-                padding: 10px;
+                padding: 10px 15px;
 
                 i {
                     margin-right: 10px;

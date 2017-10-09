@@ -1,7 +1,7 @@
 {
-  "name": "base-template",
-  "version": "1.0.0",
-  "description": "A base template for new projects",
+  "name": "vue-templ8",
+  "version": "0.0.1",
+  "description": "A basic vue template for new projects.",
   "author": "Jannick Berkhout <jannick@moodles.nl>",
   "private": true,
   "scripts": {

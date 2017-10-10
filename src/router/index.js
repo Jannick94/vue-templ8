@@ -6,15 +6,16 @@ import Modals        from '@/components/pages/Modals';
 import Notifications from '@/components/pages/Notifications';
 import Alerts        from '@/components/pages/Alerts';
 import Form          from '@/components/pages/Form';
+import Grid          from '@/components/pages/Grid';
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'Home',
-      component: Home
+        path: '/',
+        name: 'Home',
+        component: Home
     },
     {
         path: '/buttons',
@@ -40,6 +41,11 @@ export default new Router({
         path: '/form',
         name: 'Form',
         component: Form
+    },
+    {
+        path: '/grid',
+        name: 'Grid',
+        component: Grid
     }
   ]
 })

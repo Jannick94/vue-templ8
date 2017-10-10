@@ -3,13 +3,13 @@
         <ul class="list-unstyled">
             <li class="side-nav-item">
                 <router-link to="/">
-                    <i class="material-icons">home</i>
+                    <AppIcon>home</AppIcon>
                     Home
                 </router-link>
             </li>
             <li class="side-nav-item">
                 <router-link to="/buttons">
-                    <i class="material-icons">view_quilt</i>
+                    <AppIcon>view_quilt</AppIcon>
                     Buttons
                 </router-link>
             </li>
@@ -35,6 +35,12 @@
                 <router-link to="/alerts">
                     <AppIcon>info</AppIcon>
                     Alerts
+                </router-link>
+            </li>
+            <li class="side-nav-item">
+                <router-link to="/grid">
+                    <AppIcon>line_style</AppIcon>
+                    Grid
                 </router-link>
             </li>
         </ul>

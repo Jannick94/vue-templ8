@@ -1,30 +1,30 @@
 <template>
     <div class="input">
-        <input type="text" :value="value" @input="update($event.target.value)">
+        <input
+            type="text"
+            :placeholder="placeholder"
+            :value="value"
+            @input="update($event.target.value)"
+        >
     </div>
 </template>
 
 <script>
+    import inputProps from './props';
+
     export default {
         name: 'AppInput',
-        props: {
-            value: {
-                type: String,
-                default: ''
-            }
-        },
-        methods: {
-            update(val) {
-                this.$emit('input', val);
-            }
-        }
+        mixins: [inputProps],
     }
 </script>
 
 <style lang="scss">
     .input {
+        display: flex;
+        margin: 10px 0 0;
 
         input {
+            flex: 1;
             border: 1px solid #ddd;
             padding: 10px;
             border-radius: 2px;

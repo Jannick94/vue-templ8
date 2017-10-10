@@ -2,7 +2,9 @@
     <div>
         <h2>Form</h2>
 
-        <AppInput v-model="input"></AppInput>
+        <AppInput placeholder="Input placeholder" v-model="input"></AppInput>
+
+        <AppInputIcon icon="grade" placeholder="Input icon placeholder"></AppInputIcon>
     </div>
 </template>
 

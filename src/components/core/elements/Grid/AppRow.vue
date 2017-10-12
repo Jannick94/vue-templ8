@@ -14,5 +14,6 @@
     .row {
         display: flex;
         margin: 10px -15px;
+        flex-wrap: wrap;
     }
 </style>

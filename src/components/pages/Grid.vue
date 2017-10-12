@@ -3,37 +3,16 @@
         <h2>Grid</h2>
 
         <AppRow>
-            <AppCol>
+            <AppCol xs="12" sm="3">
                 <div class="demo-col">Col</div>
             </AppCol>
-            <AppCol>
+            <AppCol xs="12" sm="4">
                 <div class="demo-col">Col</div>
             </AppCol>
-            <AppCol>
+            <AppCol xs="12" sm="4">
                 <div class="demo-col">Col</div>
             </AppCol>
-        </AppRow>
-
-        <AppRow>
-            <AppCol>
-                <div class="demo-col">Col</div>
-            </AppCol>
-            <AppCol>
-                <div class="demo-col">Col</div>
-            </AppCol>
-        </AppRow>
-
-        <AppRow>
-            <AppCol>
-                <div class="demo-col">Col</div>
-            </AppCol>
-            <AppCol>
-                <div class="demo-col">Col</div>
-            </AppCol>
-            <AppCol>
-                <div class="demo-col">Col</div>
-            </AppCol>
-            <AppCol>
+            <AppCol xs="12" sm="4">
                 <div class="demo-col">Col</div>
             </AppCol>
         </AppRow>

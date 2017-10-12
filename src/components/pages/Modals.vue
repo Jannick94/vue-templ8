@@ -3,7 +3,12 @@
         <h2>Modals</h2>
 
         <AppModalToggle name="modal"></AppModalToggle>
-        <AppModal name="modal"></AppModal>
+        <AppModal name="modal">
+            <AppRow>
+                <AppCol sm="3" xs="6">col in modal</AppCol>
+                <AppCol>col in modal</AppCol>
+            </AppRow>
+        </AppModal>
     </div>
 </template>
 

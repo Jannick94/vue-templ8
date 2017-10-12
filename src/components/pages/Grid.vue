@@ -3,7 +3,7 @@
         <h2>Grid</h2>
 
         <AppRow>
-            <AppCol xs="12" sm="3">
+            <AppCol xs="12" sm="4">
                 <div class="demo-col">Col</div>
             </AppCol>
             <AppCol xs="12" sm="4">

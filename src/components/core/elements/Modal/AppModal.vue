@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="modal-dialog-content">
-                    Content
+                    <slot></slot>
                 </div>
                 <div class="modal-dialog-footer">
                     <slot name="footer">

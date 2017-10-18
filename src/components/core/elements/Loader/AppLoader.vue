@@ -22,6 +22,8 @@
 </script>
 
 <style lang="scss">
+    @import "../../../../scss/app.scss";
+
     .loader {
         position: relative;
 
@@ -59,15 +61,6 @@
 
         .loading-content.is-loading {
             opacity: 0.5;
-        }
-    }
-
-    @keyframes rotate {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(360deg);
         }
     }
 </style>

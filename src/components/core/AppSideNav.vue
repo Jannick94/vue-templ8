@@ -43,6 +43,12 @@
                     Grid
                 </router-link>
             </li>
+            <li class="side-nav-item">
+                <router-link to="/loader">
+                    <AppIcon>refresh</AppIcon>
+                    Loader
+                </router-link>
+            </li>
         </ul>
     </div>
 </template>

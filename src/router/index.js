@@ -7,6 +7,7 @@ import Notifications from '@/components/pages/Notifications';
 import Alerts        from '@/components/pages/Alerts';
 import Form          from '@/components/pages/Form';
 import Grid          from '@/components/pages/Grid';
+import Loader        from '@/components/pages/Loader';
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
         path: '/grid',
         name: 'Grid',
         component: Grid
+    },
+    {
+        path: '/loader',
+        name: 'Loader',
+        component: Loader
     }
   ]
 })

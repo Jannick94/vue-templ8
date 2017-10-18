@@ -11,6 +11,7 @@ import AppInput        from '@/components/core/elements/Form/AppInput';
 import AppInputIcon    from '@/components/core/elements/Form/AppInputIcon';
 import AppRow          from '@/components/core/elements/Grid/AppRow';
 import AppCol          from '@/components/core/elements/Grid/AppCol';
+import AppLoader       from '@/components/core/elements/Loader/AppLoader';
 
 Vue.component('AppButton', AppButton);
 Vue.component('AppNotification', AppNotification);
@@ -19,6 +20,7 @@ Vue.component('AppInput', AppInput);
 Vue.component('AppInputIcon', AppInputIcon);
 Vue.component('AppRow', AppRow);
 Vue.component('AppCol', AppCol);
+Vue.component('AppLoader', AppLoader);
 
 new Vue({
     el: '#app',

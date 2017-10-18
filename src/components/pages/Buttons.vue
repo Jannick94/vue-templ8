@@ -3,8 +3,18 @@
         <h2>Button</h2>
         <AppButton class="primary">Button</AppButton>
 
+        <AppButton class="primary">
+            <AppIcon>face</AppIcon>
+            Icon button
+        </AppButton>
+
         <h2>Button Outline</h2>
         <AppButton class="primary outline">Button</AppButton>
+
+        <AppButton class="primary outline">
+            <AppIcon>face</AppIcon>
+            Icon button
+        </AppButton>
 
         <h2>Button Loading</h2>
         <AppButton

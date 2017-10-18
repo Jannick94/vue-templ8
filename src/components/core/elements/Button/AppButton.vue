@@ -102,5 +102,10 @@
                 animation: rotate .5s infinite linear;
             }
         }
+
+        i {
+            margin: 0 5px 0 0;
+            font-size: 20px;
+        }
     }
 </style>

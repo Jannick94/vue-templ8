@@ -1,9 +1,14 @@
 <template>
     <div id="app">
-        <AppHeader></AppHeader>
+        <AppHeader>
+            <AppButton class="primary" @click="toggleSideNav()">
+                <AppIcon>menu</AppIcon>
+            </AppButton>
+            Brand
+        </AppHeader>
 
         <div class="app-content">
-            <AppSideNav></AppSideNav>
+            <AppSideNav :open="sideNavOpen"></AppSideNav>
             <div class="app-view">
                 <transition name="view">
                     <router-view></router-view>
@@ -24,6 +29,16 @@
         components: {
             AppHeader,
             AppSideNav
+        },
+        data() {
+            return {
+                sideNavOpen: true
+            }
+        },
+        methods: {
+            toggleSideNav() {
+                this.sideNavOpen = !this.sideNavOpen;
+            }
         }
     }
 </script>

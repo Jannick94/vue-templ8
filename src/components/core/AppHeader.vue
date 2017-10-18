@@ -41,6 +41,8 @@
 
         .app-header-brand {
             margin-right: auto;
+            display: flex;
+            align-items: center;
         }
 
         .app-header-nav {

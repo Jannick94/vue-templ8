@@ -1,9 +1,9 @@
 {
   "name": "vue-templ8",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "A basic vue template for new projects.",
   "author": "Jannick Berkhout <jannick@moodles.nl>",
-  "private": true,
+  "main": "src/main.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
